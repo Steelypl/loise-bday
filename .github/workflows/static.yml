@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: bahmutov/bun-install@v1
 
       - name: Build project
         run: bun run build
