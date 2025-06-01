@@ -1,0 +1,97 @@
+/* General */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #fff0f6, #ffe4f0);
+  overflow: hidden;
+}
+
+/* Centered Content */
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c2185b;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+/* Subtext */
+p.subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.button {
+  background-color: #c2185b;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* Hearts Floating */
+.hearts {
+  position: absolute;
+  bottom: 0;
+  animation: floatUp 10s infinite;
+  font-size: 2rem;
+  color: #f06292;
+}
+
+/* Floating heart animation */
+@keyframes floatUp {
+  0% { bottom: -50px; opacity: 0; transform: translateX(0); }
+  50% { opacity: 1; transform: translateX(20px); }
+  100% { bottom: 100vh; opacity: 0; transform: translateX(-20px); }
+}
+
+/* Starry Background (second screen) */
+.starry-bg {
+  background: url('your-galaxy-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Floating text styles */
+.floating-text {
+  position: absolute;
+  color: #f8bbd0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  animation: floatText 12s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes floatText {
+  0% { transform: translateY(100vh); opacity: 0; }
+  30% { opacity: 1; }
+  100% { transform: translateY(-100vh); opacity: 0; }
+}
