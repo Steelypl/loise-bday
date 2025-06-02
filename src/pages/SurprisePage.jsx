@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import spaceImage from "../../public/space-bg.webp";
 
 export default function SurprisePage() {
   useEffect(() => {
@@ -133,7 +134,7 @@ export default function SurprisePage() {
   return (
     <div
       style={{
-        backgroundImage: "url('/space-bg.webp')",
+        backgroundImage: `url(${spaceImage})`,
         backgroundSize: "cover",
       }}
       className="min-h-screen min-w-screen flex justify-center"

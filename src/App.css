@@ -71,7 +71,6 @@ p.subtext {
 
 /* Starry Background (second screen) */
 .starry-bg {
-  background: url('your-galaxy-image.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100vw;
