@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import spaceImage from "../../public/space-bg.webp";
+import spaceImage from "/space-bg.webp";
 
 export default function SurprisePage() {
   useEffect(() => {
@@ -35,6 +35,23 @@ export default function SurprisePage() {
         "❤️",
         "❤️",
         "❤️",
+        "❤️",
+        "❤️",
+        "❤️",
+        "❤️",
+        "❤️",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
+        "My sweet girl",
         "My sweet girl",
         "My sweet girl",
         "My sweet girl",
@@ -139,6 +156,23 @@ export default function SurprisePage() {
         "Manhwa Lover",
         "Manhwa Lover",
         "Manhwa Lover",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
+        "My Baby",
       ];
 
       const message = document.createElement("div");
