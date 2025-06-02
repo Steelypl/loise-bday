@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/princess-bday/",
+  base: "/loise-bday/",
   plugins: [react(), tailwindcss()],
 });
