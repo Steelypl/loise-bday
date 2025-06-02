@@ -68,13 +68,13 @@ export default function BirthdayPage() {
           animate={{ opacity: 1, y: 0 }}
         >
           <h2 className="text-xl font-semibold mb-2">To My Dearest Loise 💜</h2>
-          <p>
+          <p className="p-4">
             On this special day, I just want to say how lucky I am to have you
             in my life. Your kindness, laughter, and your beautiful soul make
             every day brighter. I hope this little website reminds you of how
             loved and cherished you are. Happy birthday, my love.
           </p>
-          <p className="mt-4 italic">Forever yours dear 💜</p>
+          <p className="p-3">Forever yours dear 💜</p>
         </motion.div>
       )}
 

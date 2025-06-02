@@ -17,7 +17,10 @@ body, html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+}
+
+p {
+    padding: calc(var(--spacing) * 3)
 }
 
 /* Title */
@@ -26,14 +29,12 @@ h1 {
   font-weight: 700;
   color: #c2185b;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-  margin-bottom: 10px;
 }
 
 /* Subtext */
 p.subtext {
   font-size: 1.1rem;
   color: #555;
-  margin-bottom: 30px;
 }
 
 /* Buttons */
